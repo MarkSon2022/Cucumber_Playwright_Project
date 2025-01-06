@@ -3,5 +3,6 @@ node_modules/
 /playwright-report/
 /blob-report/
 /playwright/.cache/
-reporter/
-
+reporter/images
+reporter/videos
+reporter/report/cucumber-html-report

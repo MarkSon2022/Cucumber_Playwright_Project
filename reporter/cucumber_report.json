@@ -1,0 +1,1429 @@
+[
+  {
+    "description": "  As a user \n  I want to ensure that add to cart work correctly\n  So that I click to add the item and the cart will have the same item",
+    "elements": [
+      {
+        "description": "",
+        "id": "add-to-cart-test;add-the-item-to-the-cart-and-view-card",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Add the item to the cart and view card",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2860676899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "the user has already logged in with username \"standard_user\" and password \"secret_sauce\"",
+            "match": {
+              "location": "src\\web\\steps\\addToCart_steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3911185799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the user is on the home page",
+            "match": {
+              "location": "src\\web\\steps\\addToCart_steps.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1795059299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "User click to Add to Card button of \"Sauce Labs Bike Light\" item",
+            "match": {
+              "location": "src\\web\\steps\\addToCart_steps.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 47900300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "User click to cart",
+            "match": {
+              "location": "src\\web\\steps\\addToCart_steps.ts:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 352840200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "The item \"Sauce Labs Bike Light\" is on the cart page.",
+            "match": {
+              "location": "src\\web\\steps\\addToCart_steps.ts:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10416700
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 33856199
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "add-to-cart-test",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Add to cart test",
+    "tags": [],
+    "uri": "src\\web\\feature\\addToCart.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "page-load-performance-testing;validate-page-load-performance",
+        "keyword": "Scenario Outline",
+        "line": 11,
+        "name": "Validate page load performance",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 61668600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I navigate to the login page for validation response",
+            "match": {
+              "location": "src\\web\\steps\\checkPayLoad_steps.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 321817699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "the page should render in less than 1000 ms",
+            "match": {
+              "location": "src\\web\\steps\\checkPayLoad_steps.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1762399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the page should fully load in less than 1000 ms",
+            "match": {
+              "location": "src\\web\\steps\\checkPayLoad_steps.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2994599
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 20509300
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "page-load-performance-testing;validate-page-load-performance",
+        "keyword": "Scenario Outline",
+        "line": 12,
+        "name": "Validate page load performance",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 61165200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I navigate to the login page for validation response",
+            "match": {
+              "location": "src\\web\\steps\\checkPayLoad_steps.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 356891100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "the page should render in less than 800 ms",
+            "match": {
+              "location": "src\\web\\steps\\checkPayLoad_steps.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 745100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the page should fully load in less than 800 ms",
+            "match": {
+              "location": "src\\web\\steps\\checkPayLoad_steps.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1802700
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 15185700
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "page-load-performance-testing",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Page Load Performance Testing",
+    "tags": [],
+    "uri": "src\\web\\feature\\checkPageLoad.feature"
+  },
+  {
+    "description": "  As a user, \n  I want to use the checkout functionality \n  So that I can fill in information and receive the correct receipt after purchase.",
+    "elements": [
+      {
+        "description": "",
+        "id": "checkout-cart;checkout-with-empty-firstname",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Checkout with empty firstname",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 55323799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "the user has already logged in with username \"standard_user\" and password \"secret_sauce\"",
+            "match": {
+              "location": "src\\web\\steps\\addToCart_steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 505562699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the user is on the home page",
+            "match": {
+              "location": "src\\web\\steps\\addToCart_steps.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1558025300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "The user clicks the Add to Cart button for the \"Sauce Labs Bike Light\" item",
+            "match": {
+              "location": "src\\web\\steps\\checkout_steps.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 54162000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "The user navigates to the cart",
+            "match": {
+              "location": "src\\web\\steps\\checkout_steps.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 112752200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "The user clicks Checkout button to go to the checkout page",
+            "match": {
+              "location": "src\\web\\steps\\checkout_steps.ts:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 330816100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "The user fills in the required information firstname: \"\" lastname:\"Nguyen\" and postalcode: \"57100\"",
+            "match": {
+              "location": "src\\web\\steps\\checkout_steps.ts:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 34030099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "Clicks Continue button",
+            "match": {
+              "location": "src\\web\\steps\\checkout_steps.ts:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 49510699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "Validate error message: \"First Name is required\"",
+            "match": {
+              "location": "src\\web\\steps\\checkout_steps.ts:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5406699
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 12335600
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "checkout-cart;checkout-with-empty-lastname",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Checkout with empty lastname",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 65157799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "the user has already logged in with username \"standard_user\" and password \"secret_sauce\"",
+            "match": {
+              "location": "src\\web\\steps\\addToCart_steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 489350000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the user is on the home page",
+            "match": {
+              "location": "src\\web\\steps\\addToCart_steps.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1704864900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "The user clicks the Add to Cart button for the \"Sauce Labs Bike Light\" item",
+            "match": {
+              "location": "src\\web\\steps\\checkout_steps.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 54615099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "The user navigates to the cart",
+            "match": {
+              "location": "src\\web\\steps\\checkout_steps.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 105297999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "The user clicks Checkout button to go to the checkout page",
+            "match": {
+              "location": "src\\web\\steps\\checkout_steps.ts:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 91494599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "The user fills in the required information firstname: \"Son\" lastname:\"\" and postalcode: \"57100\"",
+            "match": {
+              "location": "src\\web\\steps\\checkout_steps.ts:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 25698700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "Clicks Continue button",
+            "match": {
+              "location": "src\\web\\steps\\checkout_steps.ts:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 42453400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "Validate error message: \"Last Name is required\"",
+            "match": {
+              "location": "src\\web\\steps\\checkout_steps.ts:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3476099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 12092400
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "checkout-cart;checkout-with-empty-firstname",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "Checkout with empty firstname",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 69240300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "the user has already logged in with username \"standard_user\" and password \"secret_sauce\"",
+            "match": {
+              "location": "src\\web\\steps\\addToCart_steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 451281299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the user is on the home page",
+            "match": {
+              "location": "src\\web\\steps\\addToCart_steps.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1521471100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 28,
+            "name": "The user clicks the Add to Cart button for the \"Sauce Labs Bike Light\" item",
+            "match": {
+              "location": "src\\web\\steps\\checkout_steps.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 42230499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "The user navigates to the cart",
+            "match": {
+              "location": "src\\web\\steps\\checkout_steps.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 96996400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "The user clicks Checkout button to go to the checkout page",
+            "match": {
+              "location": "src\\web\\steps\\checkout_steps.ts:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 102823500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "The user fills in the required information firstname: \"Son\" lastname:\"Nguyen\" and postalcode: \"\"",
+            "match": {
+              "location": "src\\web\\steps\\checkout_steps.ts:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22063599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "Clicks Continue button",
+            "match": {
+              "location": "src\\web\\steps\\checkout_steps.ts:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 42525599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 33,
+            "name": "Validate error message: \"Postal Code is required\"",
+            "match": {
+              "location": "src\\web\\steps\\checkout_steps.ts:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3109699
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 12874400
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "checkout-cart;checkout-with-one-item",
+        "keyword": "Scenario",
+        "line": 35,
+        "name": "Checkout with one item",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 59323499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "the user has already logged in with username \"standard_user\" and password \"secret_sauce\"",
+            "match": {
+              "location": "src\\web\\steps\\addToCart_steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 498374199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the user is on the home page",
+            "match": {
+              "location": "src\\web\\steps\\addToCart_steps.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1679275499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 36,
+            "name": "The user clicks the Add to Cart button for the \"Sauce Labs Bike Light\" item",
+            "match": {
+              "location": "src\\web\\steps\\checkout_steps.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 45806099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 37,
+            "name": "The user navigates to the cart",
+            "match": {
+              "location": "src\\web\\steps\\checkout_steps.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 101202799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 38,
+            "name": "The user clicks Checkout button to go to the checkout page",
+            "match": {
+              "location": "src\\web\\steps\\checkout_steps.ts:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 99520099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 39,
+            "name": "The user fills in the required information firstname: \"Son\" lastname:\"Nguyen\" and postalcode: \"57100\"",
+            "match": {
+              "location": "src\\web\\steps\\checkout_steps.ts:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21836699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 40,
+            "name": "Clicks Continue button",
+            "match": {
+              "location": "src\\web\\steps\\checkout_steps.ts:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 329805000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 41,
+            "name": "Redirect to checkout overview page",
+            "match": {
+              "location": "src\\web\\steps\\checkout_steps.ts:55"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15736700
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 20079100
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "checkout-cart",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Checkout Cart",
+    "tags": [],
+    "uri": "src\\web\\feature\\checkout.feature"
+  },
+  {
+    "description": "  As a user, \n  I want to use the overview checkout \n  So that I can check all information about the item I will buy, the prices and the shipping information.",
+    "elements": [
+      {
+        "description": "",
+        "id": "overview-checkout;valitate-with-the-checkout-success-after-overview",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Valitate with the checkout success after overview",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 59906599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "the user has already logged in with username \"standard_user\" and password \"secret_sauce\"",
+            "match": {
+              "location": "src\\web\\steps\\addToCart_steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 475250800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the user is on the home page",
+            "match": {
+              "location": "src\\web\\steps\\addToCart_steps.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1580563900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "The user clicks the Add to Cart button for the \"Sauce Labs Bike Light\" item",
+            "match": {
+              "location": "src\\web\\steps\\checkout_steps.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 52761699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "The user navigates to the cart",
+            "match": {
+              "location": "src\\web\\steps\\checkout_steps.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 111586800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "The user clicks Checkout button to go to the checkout page",
+            "match": {
+              "location": "src\\web\\steps\\checkout_steps.ts:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 98381799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "The user fills in the required information firstname: \"Son\" lastname:\"Nguyen\" and postalcode: \"57100\"",
+            "match": {
+              "location": "src\\web\\steps\\checkout_steps.ts:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29798300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "Clicks Continue button",
+            "match": {
+              "location": "src\\web\\steps\\checkout_steps.ts:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 91112599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "Clicks Finish button",
+            "match": {
+              "location": "src\\web\\steps\\checkoutComplete_steps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 333322599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "Validate Checkout Complete page",
+            "match": {
+              "location": "src\\web\\steps\\checkoutComplete_steps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12430099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "Validate Order Success information",
+            "match": {
+              "location": "src\\web\\steps\\checkoutComplete_steps.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5657999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "Validate Ponny Express Image visible and have the right source image",
+            "match": {
+              "location": "src\\web\\steps\\checkoutComplete_steps.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 368834800
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 16177999
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Demo",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "overview-checkout",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Overview Checkout",
+    "tags": [
+      {
+        "name": "@Demo",
+        "line": 1
+      }
+    ],
+    "uri": "src\\web\\feature\\checkoutComplete.feature"
+  },
+  {
+    "description": "  As a user, \n  I want to use the overview checkout \n  So that I can check all information about the item I will buy, the prices and the shipping information.",
+    "elements": [
+      {
+        "description": "",
+        "id": "overview-checkout;valitate-with-the-checkout-information-before-buy",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Valitate with the checkout information before buy",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 71008600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "the user has already logged in with username \"standard_user\" and password \"secret_sauce\"",
+            "match": {
+              "location": "src\\web\\steps\\addToCart_steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 475916300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the user is on the home page",
+            "match": {
+              "location": "src\\web\\steps\\addToCart_steps.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1479704399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "The user clicks the Add to Cart button for the \"Sauce Labs Bike Light\" item",
+            "match": {
+              "location": "src\\web\\steps\\checkout_steps.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 48848200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "The user navigates to the cart",
+            "match": {
+              "location": "src\\web\\steps\\checkout_steps.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 121494900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "The user clicks Checkout button to go to the checkout page",
+            "match": {
+              "location": "src\\web\\steps\\checkout_steps.ts:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 94796600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "The user fills in the required information firstname: \"Son\" lastname:\"Nguyen\" and postalcode: \"57100\"",
+            "match": {
+              "location": "src\\web\\steps\\checkout_steps.ts:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22886000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "Clicks Continue button",
+            "match": {
+              "location": "src\\web\\steps\\checkout_steps.ts:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 98751000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "Redirect to checkout overview page",
+            "match": {
+              "location": "src\\web\\steps\\checkout_steps.ts:55"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16382900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "Validate the item \"Sauce Labs Bike Light\" is exist and visible",
+            "match": {
+              "location": "src\\web\\steps\\checkoutOverview_steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11106299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "Validate the item \"Sauce Labs Bike Light\" has the quantity is \"1\"",
+            "match": {
+              "location": "src\\web\\steps\\checkoutOverview_steps.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5328600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "Validate the price of the total item: \"$9.99\"",
+            "match": {
+              "location": "src\\web\\steps\\checkoutOverview_steps.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4295599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "Validate the price of the tax: \"$0.80\"",
+            "match": {
+              "location": "src\\web\\steps\\checkoutOverview_steps.ts:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3435099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "Validate the total price: \"$10.79\"",
+            "match": {
+              "location": "src\\web\\steps\\checkoutOverview_steps.ts:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3370299
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 16607900
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "overview-checkout",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Overview Checkout",
+    "tags": [],
+    "uri": "src\\web\\feature\\checkoutOverview.feature"
+  },
+  {
+    "description": "  As a user \n  I want to ensure that Login form work correctly\n  So that I only enter valid credentials, submit with Login and redirect to the home page",
+    "elements": [
+      {
+        "description": "",
+        "id": "user-authentication-test;login-with-lock-user-account",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Login with lock user account",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 59455499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "User navigates to the application",
+            "match": {
+              "location": "src\\web\\steps\\login_steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 356257100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "User enter valid credentials : username as \"locked_out_user\" and password as \"secret_sauce\"",
+            "match": {
+              "location": "src\\web\\steps\\login_steps.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 33805299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "User click on the login button",
+            "match": {
+              "location": "src\\web\\steps\\login_steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 49077600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "It still remain in login page with error message: \"Sorry, this user has been locked out.\"",
+            "match": {
+              "location": "src\\web\\steps\\login_steps.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3768000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 14123299
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "user-authentication-test;login-with-invalid-password",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Login with invalid password",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 54838900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "User navigates to the application",
+            "match": {
+              "location": "src\\web\\steps\\login_steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 383775700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "User enter valid credentials : username as \"standard_user\" and password as \"1234\"",
+            "match": {
+              "location": "src\\web\\steps\\login_steps.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 32366300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "User click on the login button",
+            "match": {
+              "location": "src\\web\\steps\\login_steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 44255899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "It still remain in login page with error message: \"Username and password do not match any user in this service\"",
+            "match": {
+              "location": "src\\web\\steps\\login_steps.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3287099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 14359299
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "user-authentication-test;login-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Login with valid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 59035000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "User navigates to the application",
+            "match": {
+              "location": "src\\web\\steps\\login_steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 344552100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "User enter valid credentials : username as \"standard_user\" and password as \"secret_sauce\"",
+            "match": {
+              "location": "src\\web\\steps\\login_steps.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 32423699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "User click on the login button",
+            "match": {
+              "location": "src\\web\\steps\\login_steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 98872999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "Login should be success",
+            "match": {
+              "location": "src\\web\\steps\\login_steps.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 788999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 16423800
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "user-authentication-test",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "User Authentication test",
+    "tags": [],
+    "uri": "src\\web\\feature\\login.feature"
+  }
+]

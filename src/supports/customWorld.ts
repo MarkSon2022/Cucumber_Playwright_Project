@@ -14,7 +14,7 @@ export class CustomWorld extends World {
     // If browser is not already launched, launch it
     if (!CustomWorld.browser) {
       CustomWorld.browser = await chromium.launch({
-        headless: false, // Set to true for headless mode
+        headless: true, // Set to true for headless mode
         //slowMo: 1000, // Make the actions slow for 1 second -> for debugging
         //args: ["--start-maximized"], // Start the window maximized
       });
