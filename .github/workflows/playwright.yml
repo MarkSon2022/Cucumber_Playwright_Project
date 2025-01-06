@@ -20,8 +20,8 @@ jobs:
     - name: Run CucumberCucumber tests
       run: npm run test
     - uses: actions/upload-artifact@v4
-      if: ${{ !cancelled() }}
+      if: always()
       with:
         name: cucumber-report
         path: reporter/
-        retention-days: 30
+        retention-days: 2
