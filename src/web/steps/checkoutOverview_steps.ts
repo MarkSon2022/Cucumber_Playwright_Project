@@ -38,5 +38,6 @@ Then("Validate the price of the tax: {string}", async function (tax: string) {
 
 Then("Validate the total price: {string}", async function (totalPrice: string) {
   await checkoutOverviewPage.validateTotalPrice(totalPrice);
+  await expect(true).toBe(false);
 });
 

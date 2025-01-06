@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "cucumber-js test || exit 0",
+    "test": "cucumber-js test",
     "posttest": "node generateReport.js",
     "test-file": "cucumber-js test --tags @Demo",
     "e2e": "npx cucumber-js --profile e2e"
