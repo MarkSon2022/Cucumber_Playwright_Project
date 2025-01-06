@@ -25,5 +25,6 @@ Then(
   "Validate Ponny Express Image visible and have the right source image",
   async function () {
     await checkoutCompletePage.validatePonyExpressImage();
+    await expect(true).toBe(false);
   }
 );

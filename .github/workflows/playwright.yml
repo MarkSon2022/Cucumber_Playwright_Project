@@ -19,7 +19,7 @@ jobs:
         run: npx playwright install --with-deps
       - name: Run CucumberCucumber tests
         run: npm run test
-        continue-on-error: true
+        # continue-on-error: true
       - uses: actions/upload-artifact@v4
         if: always()
         with:
